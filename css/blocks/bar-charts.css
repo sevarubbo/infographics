@@ -1,0 +1,21 @@
+.b-bar-charts__list{
+    padding-top: 25px;
+    text-align: justify;
+}
+.b-bar-charts__list::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.b-bar-charts__list .b-bar-chart{
+    width: 24%;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+@media (max-width: 786px) {
+    .b-bar-charts__list .b-bar-chart{
+        width: 47%;
+    }
+}

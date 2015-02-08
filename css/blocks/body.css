@@ -1,0 +1,9 @@
+.b-body{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 8%;
+    padding: 40px 0 20px 0;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}

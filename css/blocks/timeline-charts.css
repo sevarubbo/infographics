@@ -1,0 +1,10 @@
+.b-timeline-charts{
+    margin-bottom: 60px;
+}
+
+.b-timeline-charts > h1{
+    font-size: 33px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
