@@ -1,0 +1,57 @@
+.b-bar-chart{
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .14);
+}
+
+.b-bar-chart > h1{
+    height: 61px;
+    line-height: 61px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #010101;
+    background: #eeeeee;
+}
+
+.b-bar-chart__bars{
+    padding: 22px 0 20px 0;
+}
+.b-bar-chart__bar{
+    position: relative;
+    height: 29px;
+    margin-bottom: 10px;
+}
+.b-bar-chart__bar-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 6px 6px 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(255,255,255,1) 100%);
+    background-blend-mode: soft-light;
+}
+.b-bar-chart__bar:nth-of-type(1) .b-bar-chart__bar-bar{
+    background-color: #00aeef;
+}
+.b-bar-chart__bar:nth-of-type(2) .b-bar-chart__bar-bar{
+    background-color: #8cc63f;
+}
+.b-bar-chart__bar:nth-of-type(3) .b-bar-chart__bar-bar{
+    background-color: #d7df21;
+}
+.b-bar-chart__bar:nth-of-type(4) .b-bar-chart__bar-bar{
+    background-color: #fcb040;
+}
+.b-bar-chart__bar:nth-of-type(5) .b-bar-chart__bar-bar{
+    background-color: #f067a6;
+}
+.b-bar-chart__bar-caption{
+    position: relative;
+    line-height: 29px;
+    text-align: right;
+    z-index: 1;
+    padding-right: 11px;
+}
